@@ -1,0 +1,177 @@
+#top-bgt{
+	height:33px;
+	background-color:#721010;
+	min-width: 100%;
+	padding: 3px 3px;
+}
+
+.top-social{
+	float: left;
+	width: 300px;
+	color: white;
+	top: auto;
+	cursor: default;
+}
+
+.top-social a{
+	font-size:12px;
+  	width:20px;
+  	height:20px;
+  	padding: 1px 1px 1px 1px;
+  	display:inline-block;
+  	text-align:center;
+  	border-radius:50%;
+  	color:inherit;
+  	opacity:0.65;
+  	transition: 0.35s ease;
+  	margin-right: 5px;
+}
+
+.top-social > a:hover {
+  opacity:100;
+}
+
+#top-bgt .head1{
+	width: 1100px;
+	margin: auto;
+}
+
+.account a{
+	color: white;
+	font-size: 12px;
+	display: inline-block;
+	float: right;
+	margin-top: 3px;
+	transition: 0.25s ease;
+}
+
+.account a:hover{
+	color: #d92525;
+	text-decoration: none;
+}
+
+.head0{
+	box-shadow: 5px 5px 25px 0px inset rgba(0,0,0,0.2);
+}
+
+.head1{
+	width:1024px;
+	margin: auto;
+}
+
+.head2{
+	height:28px;
+	margin:0px;
+	margin-bottom:0px;
+	background-color:#9f1d1d;
+	width:165px;
+	padding:0px;
+	padding-left:25px;
+	float: right;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#logbox {
+  /*border-right:1px solid rgb(255,255,255);*/
+  text-align:center;
+  display: inline-block;
+  height:19px;
+  width:45px;
+}
+
+#logbox a{
+	color:white;
+	font-family:Ubuntu, sans-serif;
+	font-size:13px;
+	padding:0px;
+	margin-bottom:0px;
+	text-decoration: none;
+}
+
+#logbox a:hover, #regbox a:hover{
+	color: #d92525;
+}
+
+#regbox {
+	text-align:center;
+	height:19px;
+	width:53px;
+	margin:0px;
+	display: inline-block;
+}
+
+#regbox a{
+	color:white;
+	font-family:Ubuntu, sans-serif;
+	font-size:13px;
+	padding:0px;
+	margin:10px;
+	margin-bottom:0px;
+	text-decoration: none;
+}
+
+#logregdiv{
+	background-color:#d92525;
+	width:1px;
+	height:13px;
+	margin:0px;
+	margin-left:5px;
+	margin-bottom:-2px;
+	display: inline-block;
+}
+
+#logregbox{
+	width:130px;
+	padding:0px;
+	margin-left:-5px;
+	margin-top:-2px;
+}
+
+.topcont{
+	display: inline-block;
+	background-position:bottom;
+	background-size:contain;
+	background-color:rgba(255,255,255,0);
+	width:325px;
+	height:120px;
+	margin-left:10px;
+	margin-right:-8px;
+}
+
+.topcont h1{
+	text-decoration-style: monotype;
+	display: inline-block;
+	float: right;
+	font-size:21px;
+	margin:0px;
+	color:rgb(67,67,67);
+	font-family:Lora, serif;
+	font-style:italic;
+	font-weight:normal;
+	background-color:rgba(255,255,255,0);
+	padding:0px;
+	/*margin-left:0px;*/
+	margin-right:-120px;
+	margin-top:9px;
+	width:195px;
+	height:94px;
+	padding-left:21px;
+	border-left:1px;
+	border-color:grey;
+	padding-top:11px;
+}
+
+.topcont img{
+	margin-top:20px;
+	width: 225px;
+	display: inline-block;
+}
+
+.divider1 {
+	display: inline-block;
+	width:1px;
+	height:89px;
+	background-color:#bfbfbf;
+	margin-left:-68px;
+	margin-bottom:-53px;
+}

@@ -1,0 +1,267 @@
+/*product*/
+.kotakkotak{
+	padding: 25px 20px;
+	text-align: center;
+	background-color: #721010;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+.kotakkotak h1{
+	color: white;
+	margin:auto;
+	font-weight: bolder;
+	font-size: 32px;
+	cursor: default;
+}
+
+.box-row{
+	width: 976px;
+	margin-left: 40px;
+}
+
+.row-prod{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.prod2column{
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	width: 469px;
+	height: 280px;
+}
+
+.prod2column img{
+	display: block;
+	width: 469px;
+	height: 280px;
+	transition: 0.35s ease;
+}
+
+.prod2column span{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bolder;
+	position: absolute;
+	z-index: 1;
+	line-height: 50px;
+	opacity: 0.7;
+	transition: 0.35s ease;
+	background: #721010;
+	margin-top: 150px;
+	width: 100%;
+}
+
+.prod2column:hover img{
+	opacity: 0.4;
+}
+
+.prod2column:hover span{
+	opacity: 1;
+}
+
+
+.prod3column{
+	margin-right: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.prod3column img{
+	display: block;
+	width: 308px;
+	height: 280px;
+	transition: 0.35s ease;
+}
+
+.prod3column span{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bolder;
+	position: absolute;
+	margin: auto;
+	z-index: 1;
+	line-height: 50px;
+	opacity: 0.7;
+	transition: 0.35s ease;
+	background: #721010;
+	margin-top: 150px;
+	width: 100%;
+}
+
+.prod3column:hover img{
+	opacity: 0.4;
+}
+
+.prod3column:hover span{
+	opacity: 1;
+}
+
+/*subproduct*/
+
+.teks-kotak{
+	width: 60%;
+	background-color: whitesmoke;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 15px 25px;
+	transition: 0.6s ease
+}
+
+.teks-kotak span{
+	font-weight: bold;
+	font-size: 14px;
+	color: #721010
+}
+
+
+/*itemproduct*/
+
+.kotakkiri{
+	background: #721010;
+	width: 250px;
+	position: relative;
+	padding: 15px 20px;
+}
+
+.row-product{
+	width: 100%;
+	padding: 0 55px
+}
+
+.col-product{
+	display: inline-block;
+	position: relative;
+}
+
+.col-product span{
+	position: absolute;
+	font-weight: bolder;
+	font-size: 20px;
+	line-height: 170px;
+	color: white;
+	z-index: 2;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+.col-product img{
+	display: block;
+}
+
+.kotakkotak2{
+	height: 60px;
+	padding: 15px 10px;
+	text-align: center;
+	background-color: #721010;
+	margin-top: 20px;
+}
+
+.kotakkotak2 h1{
+	color: white;
+	margin:auto;
+	font-weight: bolder;
+	font-size: 25px;
+	cursor: default;
+	display: inline;
+}
+
+.backto{
+	background-color: #721010;
+	height: 60px;
+	padding: 15px 8px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-weight: bolder;
+	font-size: 20px;
+	transition: 0.25s linear;
+}
+
+.backto:hover{
+	text-decoration: none;
+	color: #620707;
+	background-color: lightgrey;
+}
+
+.breadcrumb{
+	background-color: transparent;
+	margin-left: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.breadcrumb a{
+	color: black;
+	transition: 300ms ease;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.breadcrumb a:hover{
+	color: #9f1d1d;
+	text-decoration: none;
+}
+
+.downloadtab a{
+	color: white;
+	background-color: #721010;
+	padding: 10px 10px;
+	text-align: center;
+	transition: 300ms ease;
+	margin-right: 10px;
+}
+
+.downloadtab a:hover{
+	color: #721010;
+	background-color: lightgrey;
+	text-decoration: none;
+}
+
+.downloadtab h6{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	padding: 20px 20px;
+	width: 90%;
+	background: linear-gradient(90deg, #721010 30%, rgba(255, 255, 255, 0) 95%), #FFFFFF;
+}
+
+/*item*/
+
+.item-product{
+	display: inline-block;
+	text-align: center;
+	background-color: #721010;
+	color: white;
+	transition: all 450ms ease;
+	margin-bottom: 8px;
+	padding: 8px 0px;
+	width: 350px;
+	height: 40px;
+	font-size: 18px;
+}
+
+.item-product:hover{
+	color: white;
+	background-color: #d92525;
+	text-decoration: none;
+}
+
+.fff{
+	display: block;
+	background-color: #9f1d1d;
+	width: 0;
+	height: 5px;
+	transition: 450ms ease;
+	margin-top: 5px;
+}
+
+.item-product:hover .fff{
+	width: 350px;
+}

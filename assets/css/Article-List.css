@@ -1,0 +1,147 @@
+.article-list {
+  color:#313437;
+  background-color:#fff;
+  margin-top: -15px;
+}
+
+.article-list p {
+  color:#7d8285;
+}
+
+.article-list h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .article-list h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+
+.article-list .intro p {
+  margin-bottom:0;
+}
+
+.article-list .articles {
+  padding-bottom:40px;
+  margin-top: -10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-list .item {
+  padding-top:50px;
+  min-height:425px;
+  text-align:center;
+  margin-top: -20px;
+}
+
+.d{
+  transform: scale(0.8);
+}
+
+.article-list .item .name {
+  font-weight:bold;
+  font-size:16px;
+  margin-top:5px;
+  color:inherit;
+}
+
+.article-list .item .description {
+  width: 240px;
+  height: 100px;
+  font-size:12px;
+  margin-top:15px;
+  margin-bottom:0;
+  margin-left: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.article-list .item .action {
+  font-size:14px;
+  display:block;
+  opacity:0.6;
+  transition:opacity 0.2s;
+  text-decoration:none;
+}
+
+.article-list .item .action p{
+  color:#d92525;
+  text-align: right;
+}
+
+.article-list .item .action:hover {
+  opacity:1;
+  text-decoration: none
+}
+
+.tengah{
+  margin-top:10px;
+  position:relative;
+  width:100%;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px;
+  -ms-flex:0 0 83.333333%;
+  flex:0 0 83.333333%;
+  max-width:83.333333%;
+  margin-left:8.333333%;
+}
+
+.judul{
+  display: block;
+  margin: auto;
+  width: 100%;
+  height:40px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+}
+
+.kirikanan{
+  height:40px;
+  width:15%;
+  display: inline-block;
+}
+
+.kiri{
+  margin-right:10px;
+  height:1px;
+  margin-top:28px;
+  background-color:#7d7d7d;
+}
+
+.kanan{
+  margin-left:10px;
+  height:1px;
+  margin-top:28px;
+  background-color:#7d7d7d;
+}
+
+.titel{
+  display: inline-block;
+}
+
+.titel span{
+  font-family:Montserrat, sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+
+#carousel-2 .carousel-inner{
+  margin-top: 10px;
+  padding:0;
+  background-position:center;
+}
+
+.l img:hover{
+  transform: scale(1.1);
+  transition: .55s ease;
+}

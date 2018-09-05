@@ -1,0 +1,56 @@
+.copyright {
+}
+
+.image-holder {
+  width:auto;
+}
+
+.dropdown-menu.show {
+  border-radius:0px;
+}
+
+.list-unstyled {
+  text-align:center;
+  text-justify:initial;
+  font-weight:normal;
+  font-style:italic;
+}
+
+.isinya{
+	margin-top: 150px;
+}
+
+.cola{
+	width: 100px;
+	height: 200px;
+}
+
+.underwork{
+	cursor: default;
+	display: block;
+}
+
+.underwork h2{
+	font-weight: bolder;
+	font-size: 80px;
+	line-height: 80px;
+	margin-top: 20px;
+}
+
+.backtohome{
+	padding: 20px;
+	background-color: #212529;
+	color: white;
+	transition: 400ms ease;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin: auto;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.backtohome:hover{
+	background-color: maroon;
+	color: white;
+	text-decoration: none;
+}

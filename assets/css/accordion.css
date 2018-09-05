@@ -1,0 +1,69 @@
+.col-product .container {
+  background: #620707;
+}
+
+button.accord {
+  width: 100%;
+  background: #620707;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 8px 25px;
+  font-size: 16px;
+  color: #444;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accord a{
+  color: white;
+  font-family:Open Sans, sans-serif;
+}
+
+button.accord a:hover{
+  text-decoration: none;
+}
+
+/*button.accordion:after {
+  content: '\f055';
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: '\f056';
+}*/
+
+button.accord:hover, button.accord.is-open {
+  background-color: #878787;
+}
+
+.accord-content {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+  margin: auto;
+}
+
+.accord-content a{
+  color: white;
+  transition: 0.3s ease;
+}
+
+.accord-list{
+  background-color: #cfcfcf;
+  width: 100%;
+  padding: 2px 25px;
+  text-align: center;
+}
+
+.accord-content a:hover{
+  text-decoration: none;
+  color: #620707;
+}
+
+.accord-list:hover{
+  background-color: #f2f2f2;
+}

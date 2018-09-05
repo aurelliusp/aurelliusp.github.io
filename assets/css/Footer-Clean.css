@@ -1,0 +1,131 @@
+.footer-clean {
+  padding:50px 0;
+  color:#4b4c4d;
+  background-color:#7D1414;
+  color:rgb(255,255,255);
+  font-family:Ubuntu, sans-serif;
+  max-height: 200px;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:10px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  color: #db2525;
+  background-color: transparent;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:20px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.65;
+  transition: 0.35s ease;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:100;
+}
+
+.twitter:hover {
+  background-color: #55ACEE;
+}
+
+.fb:hover {
+  background-color: #3C5A99;
+}
+
+.linkedin:hover {
+  background-color: #0274B3;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:10px;
+  opacity:0.6;
+}
+
+.socialdiv{
+  width:285px;
+  margin-left:-12px;
+  padding-top:0px;
+}
+
+.intro{
+  font-size:4px;
+}
+
+.intro h2{
+  font-size:12px;
+  margin-bottom:-22px;
+  height:50px;
+  text-align: center;
+}
+
+.item{
+  position:relative;
+  width:100%;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px
+}
+
+.footer-clean .container{
+  max-height: 150px;margin-top: -20px
+}
